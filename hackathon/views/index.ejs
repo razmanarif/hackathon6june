@@ -1,0 +1,10 @@
+<% lists.map((object) =>{ %>
+
+    <div>
+       <%= object.items.item %>
+        <%= object.deliveryDate %>
+        <%= object.status.type %>
+        <%= object.status.enum[0] %>
+
+    </div>
+<% }) %>
